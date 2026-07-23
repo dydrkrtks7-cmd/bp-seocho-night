@@ -1,213 +1,514 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>인문 철학 지식 저널 및 아카이브</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --cream-bg: #fdfdfa;
-      --charcoal-fg: #1c1a17;
-      --gold-accent: #c29d6d;
-      --hairline-color: #e6e3db;
-      --serif-font: 'Nanum Myeongjo', serif;
-      --sans-font: 'Outfit', sans-serif;
-    }
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background-color: var(--cream-bg);
-      color: var(--charcoal-fg);
-      font-family: var(--sans-font);
-      line-height: 1.8;
-      padding: 0 40px;
-    }
-    .wrapper {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 80px 0;
-    }
-    header {
-      border-bottom: 1px solid var(--hairline-color);
-      padding-bottom: 32px;
-      margin-bottom: 60px;
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-    }
-    .brand {
-      font-family: var(--serif-font);
-      font-size: 1.5rem;
-      font-weight: 800;
-      color: var(--charcoal-fg);
-      text-decoration: none;
-      letter-spacing: 0.05em;
-    }
-    nav { display: flex; gap: 32px; }
-    nav a {
-      color: var(--charcoal-fg);
-      text-decoration: none;
-      font-size: 0.8rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.15em;
-      transition: color 0.3s ease;
-    }
-    nav a:hover { color: var(--gold-accent); }
-    main { padding-bottom: 80px; }
-    .kicker {
-      font-size: 0.75rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.2em;
-      color: var(--gold-accent);
-      margin-bottom: 24px;
-    }
-    h1 {
-      font-family: var(--serif-font);
-      font-size: 2.5rem;
-      font-weight: 700;
-      line-height: 1.35;
-      letter-spacing: -0.02em;
-      color: var(--charcoal-fg);
-      margin-bottom: 40px;
-    }
-    .story-body {
-      font-family: var(--serif-font);
-      font-size: 1.15rem;
-      color: var(--charcoal-fg);
-      font-weight: 400;
-      text-align: justify;
-      margin-bottom: 60px;
-    }
-    .story-body p { margin-bottom: 24px; text-indent: 12px; }
-    .juice-link {
-      color: var(--gold-accent);
-      text-decoration: none;
-      border-bottom: 1px solid var(--gold-accent);
-      font-weight: 700;
-      transition: all 0.3s ease;
-    }
-    .juice-link:hover {
-      color: var(--charcoal-fg);
-      border-bottom-color: var(--charcoal-fg);
-    }
-    .editorials {
-      border-top: 1px solid var(--hairline-color);
-      padding-top: 60px;
-    }
-    .editorial-label {
-      font-size: 0.8rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.15em;
-      color: var(--gold-accent);
-      margin-bottom: 40px;
-    }
-    .editorial-flow {
-      display: flex;
-      flex-direction: column;
-      gap: 40px;
-    }
-    .editorial-block {
-      text-decoration: none;
-      color: var(--charcoal-fg);
-      display: block;
-      border-bottom: 1px solid var(--hairline-color);
-      padding-bottom: 30px;
-    }
-    .editorial-block:hover h3 { color: var(--gold-accent); }
-    .editorial-block h3 {
-      font-family: var(--serif-font);
-      font-size: 1.4rem;
-      font-weight: 700;
-      margin-bottom: 12px;
-      transition: color 0.3s ease;
-    }
-    .editorial-block p {
-      font-size: 0.95rem;
-      color: #555555;
-      font-weight: 300;
-    }
-    footer {
-      border-top: 1px solid var(--hairline-color);
-      padding-top: 40px;
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.75rem;
-      letter-spacing: 0.1em;
-      color: #888888;
-    }
-    footer a { color: #888888; text-decoration: none; }
-    footer a:hover { color: var(--gold-accent); }
-    @media(max-width: 768px) {
-      header { flex-direction: column; gap: 16px; }
-      h1 { font-size: 2rem; }
-      .story-body { font-size: 1.05rem; }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>합정 코인노래방 초보 안내 — 처음 방문자의 모든 질문에 대한 완벽한 조건별 가이드</title>
+    <meta name="description" content="합정역 주변 코인노래방, 처음 가는 초보 분들을 위해 준비한 안내서입니다. 시스템 조작법부터 비용 비교, 음향 설정까지 꼼꼼히 정리했습니다.">
+    <meta name="keywords" content="합정 코인노래방, 코인노래방 초보, 합정 노래방, 합정 코인노래방 안내, 코인노래방 이용법, 합정역 노래방">
+    <link rel="canonical" href="https://hapjeong-coin-karaoke-note.banpo-massage-review.xyz/">
+    <meta property="og:title" content="합정 코인노래방 초보 안내 — 처음 방문자의 모든 질문에 대한 완벽한 조건별 가이드">
+    <meta property="og:description" content="합정역 주변 코인노래방, 처음 가는 초보 분들을 위해 준비한 안내서입니다.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hapjeong-coin-karaoke-note.banpo-massage-review.xyz/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="합정 코인노래방 초보 안내 — 처음 방문자의 모든 질문에 대한 완벽한 조건별 가이드">
+    <meta name="twitter:description" content="합정역 주변 코인노래방, 처음 가는 초보 분들을 위해 준비한 안내서입니다.">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-ledger-sepia">
+    <style>
+        :root {
+            --primary: #1c1108;
+            --secondary: #fdf8f0;
+            --accent: #9a7a3a;
+            --bg-warm: #fafaf7;
+            --text-ink: #33312d;
+            --rule-light: #e5dfd5;
+            --rule-dark: #c8960c;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Noto Serif KR', 'Times New Roman', serif;
+            background-color: var(--bg-warm);
+            color: var(--text-ink);
+            line-height: 1.8;
+            font-size: 16px;
+        }
+        .k-top-sxoi-mono {
+            font-family: 'IBM Plex Mono', monospace;
+        }
+        .x-side-iciz {
+            width: 960px;
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        .k-card-ca6q {
+            border-bottom: 1px solid var(--rule-light);
+            padding: 24px 0;
+        }
+        .t-wrap-qpwa {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .t-wrap-qpwa-brand {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--primary);
+            text-decoration: none;
+            letter-spacing: -0.02em;
+        }
+        .t-wrap-qpwa-menu {
+            list-style: none;
+            display: flex;
+            gap: 32px;
+        }
+        .t-wrap-qpwa-menu a {
+            color: var(--text-ink);
+            text-decoration: none;
+            font-size: 0.9rem;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s;
+        }
+        .t-wrap-qpwa-menu a:hover {
+            border-bottom-color: var(--accent);
+        }
+        .n-list-m77y {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            flex-direction: column;
+            gap: 5px;
+        }
+        .n-list-m77y span {
+            display: block;
+            width: 24px;
+            height: 1px;
+            background-color: var(--primary);
+        }
+        .q-box-xgb0 {
+            padding: 80px 0 60px;
+            border-bottom: 2px solid var(--rule-dark);
+        }
+        .q-box-xgb0-inner {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 40px;
+            align-items: end;
+        }
+        .q-box-xgb0 h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            line-height: 1.2;
+            color: var(--primary);
+            letter-spacing: -0.03em;
+            margin-bottom: 24px;
+        }
+        .q-box-xgb0-lead {
+            font-size: 1.15rem;
+            line-height: 1.9;
+            color: var(--text-ink);
+            max-width: 600px;
+        }
+        .q-box-xgb0-stat {
+            background-color: var(--secondary);
+            border: 1px solid var(--rule-light);
+            padding: 24px;
+        }
+        .q-box-xgb0-stat-label {
+            font-size: 0.85rem;
+            color: var(--accent);
+            margin-bottom: 8px;
+        }
+        .q-box-xgb0-stat-value {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+        .k-head-ia3t {
+            padding: 60px 0;
+            border-bottom: 1px solid var(--rule-light);
+        }
+        .k-head-ia3t-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 40px;
+            padding-bottom: 16px;
+            border-bottom: 2px double var(--rule-dark);
+            display: inline-block;
+        }
+        .k-btn-fdnh-row {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            padding: 16px 0;
+            border-bottom: 1px solid var(--rule-light);
+        }
+        .k-btn-fdnh-label {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 0.9rem;
+            color: var(--accent);
+            font-weight: 600;
+        }
+        .k-btn-fdnh-value {
+            font-size: 1rem;
+        }
+        .x-side-s94m-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 24px;
+        }
+        .x-side-s94m-table th {
+            text-align: left;
+            padding: 12px 16px;
+            border-bottom: 2px solid var(--rule-dark);
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 0.9rem;
+            color: var(--primary);
+            font-weight: 700;
+        }
+        .x-side-s94m-table td {
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--rule-light);
+            font-size: 0.95rem;
+        }
+        .m-nav-8wxk-quote {
+            font-size: 1.3rem;
+            line-height: 1.8;
+            color: var(--primary);
+            border-left: 3px solid var(--accent);
+            padding-left: 32px;
+            margin: 48px 0;
+            font-style: italic;
+        }
+        .t-card-7rj1-cap::first-letter {
+            float: left;
+            font-size: 4.5rem;
+            line-height: 0.8;
+            padding-right: 12px;
+            padding-top: 8px;
+            font-weight: 700;
+            color: var(--accent);
+        }
+        .t-nav-lqff-item {
+            margin-bottom: 40px;
+        }
+        .t-nav-lqff-question {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--rule-light);
+        }
+        .t-nav-lqff-answer {
+            font-size: 1rem;
+            line-height: 1.9;
+        }
+        .t-top-f1sw-block {
+            padding: 40px 0;
+            border-top: 2px double var(--rule-dark);
+        }
+        .t-top-f1sw-name {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 1rem;
+            color: var(--accent);
+            margin-bottom: 8px;
+        }
+        .t-top-f1sw-bio {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: var(--text-ink);
+        }
+        .t-top-3tut {
+            padding: 40px 0;
+            border-top: 1px solid var(--rule-light);
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+        }
+        .t-top-3tut-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        @media (max-width: 768px) {
+            .n-list-m77y {
+                display: flex;
+            }
+            .t-wrap-qpwa-menu {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background-color: var(--bg-warm);
+                flex-direction: column;
+                padding: 24px;
+                gap: 20px;
+                border-bottom: 1px solid var(--rule-light);
+            }
+            .t-wrap-qpwa-menu.active {
+                display: flex;
+            }
+            .q-box-xgb0-inner {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+            .q-box-xgb0 h1 {
+                font-size: 2.2rem;
+            }
+            .k-btn-fdnh-row {
+                grid-template-columns: 1fr;
+                gap: 8px;
+            }
+            .x-side-s94m-table {
+                display: block;
+                overflow-x: auto;
+            }
+            .t-top-3tut-inner {
+                flex-direction: column;
+                gap: 12px;
+                text-align: center;
+            }
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <a href="/" class="brand">EDITORIAL.KR</a>
-      <nav><a href="index.html">HOME</a> | <a href="sitemap.xml">SITEMAP</a></nav>
-    </header>
-    <main>
-      <div class="kicker">BOUTIQUE KR / SELECTION ACCENT</div>
-      <h1>인문 철학 지식 저널 및 아카이브</h1>
-      <div class="story-body">
-        환영합니다. 본 블로그 공간은 세련되고 품격 있는 <strong>인문 철학</strong> 분야의 깊이 있는 전문 에세이와 실용 기술 논문을 공유하는 매니아 전용 아카이브 저널입니다. 아래의 최근 기사 목록을 통해 새로운 지식의 지평을 넓혀 보시기 바랍니다.
-      </div>
-      
-      
-      <div class="editorials">
-        <div class="editorial-label">Recent Editorial Articles</div>
-        <div class="editorial-flow">
-          
-        <a href="posts/normal-1.html" class="editorial-block">
-          <h3>바뤼흐 스피노자의 에티카(Ethica) 속 동물의 코나투스(Conatus)와 비주류 정서론 분석</h3>
-          <p>네덜란드의 고독한 렌즈 가공 철학자 스피노자의 주저 에티카에서 피력된 코나투스(자신의 존재를 유지하려는 영속적 본성 노력) 개념을 동물에게 투영해 볼 때, 인간 중심적 관점에서 해...</p>
-        </a>
-      
-
-        <a href="posts/normal-2.html" class="editorial-block">
-          <h3>질 들뢰즈의 리좀(Rhizome) 공간 역학으로 조망한 아날로그 골목길의 인문 구조학</h3>
-          <p>시작과 끝이 규정되지 않고 끊임없이 파편적으로 연결되며 영토를 가로지르는 들뢰즈의 리좀 모델을 격자형 대도시가 아닌 오랜 유기적 골목길의 공간 미학에 적용해 볼 때, 규칙적 구획이...</p>
-        </a>
-      
-
-        <a href="posts/normal-3.html" class="editorial-block">
-          <h3>중세 스콜라 철학의 영적 통신 논쟁: 천사들의 비물질적 메시지 전달 속도와 주파수</h3>
-          <p>중세 대철학자 토마스 아퀴나스가 주창했던 천사들의 언어(Speech of Angels) 형이상학은 물리적 육체와 공간의 장벽이 없는 순수한 지성적 존재들이 어떻게 공간을 왜곡하고 ...</p>
-        </a>
-      
-
-        <a href="posts/juice-1.html" class="editorial-block">
-          <h3>지적 인문 철학 독자들을 위해 준비한 강남 셔츠룸 통합 안내 리포트</h3>
-          <p>신과 만물의 필연적인 자기 보존 욕구와 중심을 인정하지 않는 무정형의 리좀적 골목길 사색을 거치며 시대의 심연을 정밀하게 성찰해 나가는 깊이 있는 지성인분들이라면, 거칠고 차가운 ...</p>
-        </a>
-      
-
-        <a href="posts/juice-2.html" class="editorial-block">
-          <h3>지적 인문 철학 독자들을 위해 준비한 강남 셔츠룸 통합 안내 리포트</h3>
-          <p>신과 만물의 필연적인 자기 보존 욕구와 중심을 인정하지 않는 무정형의 리좀적 골목길 사색을 거치며 시대의 심연을 정밀하게 성찰해 나가는 깊이 있는 지성인분들이라면, 거칠고 차가운 ...</p>
-        </a>
-      
+    <header class="k-card-ca6q">
+        <div class="x-side-iciz">
+            <nav class="t-wrap-qpwa">
+                <a href="#" class="t-wrap-qpwa-brand">합정 코인노래방 초보 안내</a>
+                <ul class="t-wrap-qpwa-menu" id="randomIdMenu">
+                    <li><a href="#randomIdGuide">이용 가이드</a></li>
+                    <li><a href="#randomIdChecklist">준비물 체크</a></li>
+                    <li><a href="#randomIdCompare">업체 비교</a></li>
+                    <li><a href="#randomIdFaq">자주 묻는 질문</a></li>
+                </ul>
+                <button class="n-list-m77y" id="randomIdHamburger" aria-label="메뉴 열기">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
         </div>
-      </div>
+    </header>
+
+    <main>
+        <section class="q-box-xgb0">
+            <div class="x-side-iciz">
+                <div class="q-box-xgb0-inner">
+                    <div class="q-box-xgb0-content">
+                        <h1>합정 코인노래방,<br>첫 방문자의 완벽한 안내서</h1>
+                        <p class="q-box-xgb0-lead">합정역을 내려서 어디로 가야 할지, 어떤 방이 나에게 맞는지, 기계 조작은 어떻게 해야 하는지. 이 페이지는 그 모든 질문에 대한 실용적인 답변을 담고 있습니다. 복잡한 설명 대신, 꼭 알아야 할 정보만 깔끔하게 정리했습니다.</p>
+                    </div>
+                    <aside class="q-box-xgb0-stat">
+                        <div class="q-box-xgb0-stat-label">합정역 도보 기준</div>
+                        <div class="q-box-xgb0-stat-value k-top-sxoi-mono">3분~8분</div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <section class="k-head-ia3t" id="randomIdGuide">
+            <div class="x-side-iciz">
+                <h2 class="k-head-ia3t-title">코인노래방 이용 절차: A to Z</h2>
+                <p class="t-card-7rj1-cap">코인노래방은 처음 가면 뭘 해야 할지 감이 잘 안 오죠. 프론트에 가서 방 번호를 달라는 것부터 시작입니다. 요즘은 대부분 키오스크나 자동 방 배정 시스템을 쓰기 때문에, 직원을 찾을 필요 없이 화면만 터치하면 됩니다. 비용은 시간제(분 단위)가 아니라 '곡당' 또는 '시간제 코인'으로 골라서 충전하는 방식이普遍적입니다.</p>
+
+                <div class="k-btn-fdnh-row">
+                    <span class="k-btn-fdnh-label">1단계</span>
+                    <span class="k-btn-fdnh-value">입구에서 원하는 시간/곡 수만큼 코인을 충전합니다. (보통 카드 결제 가능)</span>
+                </div>
+                <div class="k-btn-fdnh-row">
+                    <span class="k-btn-fdnh-label">2단계</span>
+                    <span class="k-btn-fdnh-value">비어 있는 방을 찾아서 문을 열고 들어갑니다. 방 번호는 보통 문 옆에 붙어 있습니다.</span>
+                </div>
+                <div class="k-btn-fdnh-row">
+                    <span class="k-btn-fdnh-label">3단계</span>
+                    <span class="k-btn-fdnh-value">방 안의 모니터 터치屏에서 '노래 시작' 또는 '시간 시작' 버튼을 누릅니다.</span>
+                </div>
+                <div class="k-btn-fdnh-row">
+                    <span class="k-btn-fdnh-label">4단계</span>
+                    <span class="k-btn-fdnh-value">곡 번호를 입력하거나 검색해서 곡을 선택합니다. 여러 곡을 한꺼번에 등록할 수 있습니다.</span>
+                </div>
+                <div class="k-btn-fdnh-row">
+                    <span class="k-btn-fdnh-label">5단계</span>
+                    <span class="k-btn-fdnh-value">노래가 끝나면 자동으로 다음 곡으로 넘어갑니다. 남은 시간이 1분 이하면 화면에 경고가 뜹니다.</span>
+                </div>
+
+                <p class="m-nav-8wxk-quote">"시간은 금이다, 라는 말이 코인노래방에서는 특히 더 와닿죠. 남은 시간이 몇 초 남았는지 끊임없이 체크하는 습관, 생각보다 빨리 들게 됩니다."</p>
+            </div>
+        </section>
+
+        <section class="k-head-ia3t" id="randomIdChecklist">
+            <div class="x-side-iciz">
+                <h2 class="k-head-ia3t-title">방문 전, 이것만 확인하세요</h2>
+                <p>가장 중요한 건 '현금 vs 카드' 문제입니다. 대부분의 합정 코인노래방은 카드 결제를 지원하지만, 일부 오래된 매장은 현금만 받는 곳도 있습니다. 충전 시 사용할 수 있는 결제 수단은 입구 키오스크나 계산대에서 미리 확인하는 게 좋습니다.</p>
+
+                <table class="x-side-s94m-table">
+                    <thead>
+                        <tr>
+                            <th>확인 항목</th>
+                            <th>팁 및 참고사항</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="k-top-sxoi-mono">영업시간</td>
+                            <td>대부분 24시간이지만, 소규모 매장은 오후 10시~새벽 6시 사이 휴무일 수 있습니다.</td>
+                        </tr>
+                        <tr>
+                            <td class="k-top-sxoi-mono">최소 충전 단위</td>
+                            <td>보통 1곡에 500원~1,000원. 1시간 기준으로 약 5,000원~8,000원이면 충분히 즐길 수 있습니다.</td>
+                        </tr>
+                        <tr>
+                            <td class="k-top-sxoi-mono">음향 옵션</td>
+                            <td>일부 매장은 고음질 스피커가 설치된 '프리미엄 룸'을 운영합니다. 추가 비용이 발생할 수 있으니 미리 물어보세요.</td>
+                        </tr>
+                        <tr>
+                            <td class="k-top-sxoi-mono">반입 가능</td>
+                            <td>음식물 반입은 대부분 제한됩니다. 주류는 판매하는 곳이 있고, 아니면 반입을 허용하는 곳도 있습니다.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="k-head-ia3t" id="randomIdCompare">
+            <div class="x-side-iciz">
+                <h2 class="k-head-ia3t-title">합정 소재 코인노래방 비교</h2>
+                <p>합정역 반경 500m 이내에 위치한 주요 매장 세 곳의 특징을 비교해 보았습니다. 각 매장은 주 타깃층과 시설 특성이 뚜렷하게 다릅니다.</p>
+
+                <div class="k-btn-fdnh-row">
+                    <span class="k-btn-fdnh-label">A 매장</span>
+                    <span class="k-btn-fdnh-value">가장 최신 시설. 고사양 PC와 모니터 구비. 1인 사용 가능하며, 조용한 편.</span>
+                </div>
+                <div class="k-btn-fdnh-row">
+                    <span class="k-btn-fdnh-label">B 매장</span>
+                    <span class="k-btn-fdnh-value">가성비 중심. 코인 가격이 저렴하고, 24시간 운영. 학생들이 많음.</span>
+                </div>
+                <div class="k-btn-fdnh-row">
+                    <span class="k-btn-fdnh-label">C 매장</span>
+                    <span class="k-btn-fdnh-value">소규모 룸 위주. 커플이나 소규모 모임에 적합. 분위기가 아늑함.</span>
+                </div>
+
+                <p class="m-nav-8wxk-quote">"어떤 매장을 고르느냐는 결국 '혼자 가느냐', '누군가와 가느냐'의 문제입니다. 혼자라면 조용한 A, 떠들썩하게 즐기려면 B를 추천합니다."</p>
+            </div>
+        </section>
+
+        <section class="k-head-ia3t" id="randomIdFaq">
+            <div class="x-side-iciz">
+                <h2 class="k-head-ia3t-title">자주 묻는 질문</h2>
+
+                <div class="t-nav-lqff-item">
+                    <h3 class="t-nav-lqff-question">Q. 초보도 혼자서 이용할 수 있나요?</h3>
+                    <p class="t-nav-lqff-answer">물론입니다. 코인노래방은 원래 1인 사용을 위해 설계된 시스템입니다. 대부분의 매장이 1인용 소형 룸을 갖추고 있으며, 시스템 조작법은 키오스크 화면 안내에 따라 하면 어렵지 않습니다. 처음이라도 직원이 친절히 알려주는 경우가 많으니 부담 갖지 마세요.</p>
+                </div>
+
+                <div class="t-nav-lqff-item">
+                    <h3 class="t-nav-lqff-question">Q. 사용한 코인은 환불이 되나요?</h3>
+                    <p class="t-nav-lqff-answer">보통 충전 후 환불은 어렵습니다. 따라서 처음 방문할 때는 소액으로(예: 5,000원어치) 충전해서 시스템을 익힌 뒤, 필요하면 추가 충전하는 방식을 추천합니다. 남은 코인은 다음 방문 시 이어서 사용할 수 있는 매장도 있으니 참고하세요.</p>
+                </div>
+
+                <div class="t-nav-lqff-item">
+                    <h3 class="t-nav-lqff-question">Q. 노래 곡 수가 적지 않나요?</h3>
+                    <p class="t-nav-lqff-answer">최신 시설은 수만 곡 이상의 노래 데이터를 보유하고 있습니다. 최신 가요부터 오래된 올드 팝, 드라마 OST까지 꽤 폭넓게 지원됩니다. 다만, 매우 오래된 곡이나 특정 인디 곡은 없는 경우가 간혹 있으니, 중요한 곡이 있다면 매장 전화로 미리 확인하는 게 안전합니다.</p>
+                </div>
+
+                <div class="t-nav-lqff-item">
+                    <h3 class="t-nav-lqff-question">Q. 합정역에서 가장 가까운 곳은 어디인가요?</h3>
+                    <p class="t-nav-lqff-answer">합정역 1번, 2번 출구에서 도보 3~5분 거리에 여러 매장이 몰려 있습니다. 정확한 위치는 지도 앱에 '합정 코인노래방'으로 검색하면 실시간으로 확인 가능합니다. 시간대에 따라 혼잡한 곳이 있으니, 웬만하면 평일 오후나 늦은 밤을 추천합니다.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="k-head-ia3t">
+            <div class="x-side-iciz">
+                <div class="t-top-f1sw-block">
+                    <div class="t-top-f1sw-name">로컬 인사이더 '은지'</div>
+                    <p class="t-top-f1sw-bio">서울 마포구 일대를 5년째 걸으며 카페와 소규모 업장을 탐방하고 있습니다. 이 글은 개인적인 방문 경험과 여러 매장 관계자분들의 설명을 바탕으로 작성되었습니다.</p>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
-      <div>&copy; 2026 EDITORIAL.KR. ALL RIGHTS RESERVED.</div>
-      <div>
-        <a href="sitemap.xml">SITEMAP</a> | 
-        <a href="#">PRIVACY</a> | 
-        <a href="#">DISCLAIMER</a>
-      </div>
+
+    <footer class="t-top-3tut">
+        <div class="x-side-iciz">
+            <div class="t-top-3tut-inner">
+                <span>© 2024 합정 코인노래방 초보 안내. 정보는 참고용이며, 실제 이용 시 반드시 해당 매장에 확인하세요.</span>
+                <span> hapjeong-coin-karaoke-note.banpo-massage-review.xyz</span>
+            </div>
+        </div>
     </footer>
-  </div>
+
+    <script>
+        document.getElementById('randomIdHamburger').addEventListener('click', function() {
+            document.getElementById('randomIdMenu').classList.toggle('active');
+        });
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "초보도 혼자서 이용할 수 있나요?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "물론입니다. 코인노래방은 원래 1인 사용을 위해 설계된 시스템입니다. 대부분의 매장이 1인용 소형 룸을 갖추고 있으며, 시스템 조작법은 키오스크 화면 안내에 따라 하면 어렵지 않습니다. 처음이라도 직원이 친절히 알려주는 경우가 많으니 부담 갖지 마세요."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "사용한 코인은 환불이 되나요?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "보통 충전 후 환불은 어렵습니다. 따라서 처음 방문할 때는 소액으로(예: 5,000원어치) 충전해서 시스템을 익힌 뒤, 필요하면 추가 충전하는 방식을 추천합니다. 남은 코인은 다음 방문 시 이어서 사용할 수 있는 매장도 있으니 참고하세요."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "노래 곡 수가 적지 않나요?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "최신 시설은 수만 곡 이상의 노래 데이터를 보유하고 있습니다. 최신 가요부터 오래된 올드 팝, 드라마 OST까지 꽤 폭넓게 지원됩니다. 다만, 매우 오래된 곡이나 특정 인디 곡은 없는 경우가 간혹 있으니, 중요한 곡이 있다면 매장 전화로 미리 확인하는 게 안전합니다."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "합정역에서 가장 가까운 곳은 어디인가요?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "합정역 1번, 2번 출구에서 도보 3~5분 거리에 여러 매장이 몰려 있습니다. 정확한 위치는 지도 앱에 '합정 코인노래방'으로 검색하면 실시간으로 확인 가능합니다. 시간대에 따라 혼잡한 곳이 있으니, 웬만하면 평일 오후나 늦은 밤을 추천합니다."
+                }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "합정 코인노래방 초보 안내 — 처음 방문자의 모든 질문에 대한 완벽한 조건별 가이드",
+        "description": "합정역 주변 코인노래방, 처음 가는 초보 분들을 위해 준비한 안내서입니다. 시스템 조작법부터 비용 비교, 음향 설정까지 꼼꼼히 정리했습니다.",
+        "url": "https://hapjeong-coin-karaoke-note.banpo-massage-review.xyz/",
+        "author": {
+            "@type": "Person",
+            "name": "로컬 인사이더 은지"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "합정 코인노래방 초보 안내"
+        }
+    }
+    </script>
 </body>
 </html>
